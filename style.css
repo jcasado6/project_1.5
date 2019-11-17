@@ -1,0 +1,22 @@
+body {
+    background-image: url(KRISTIN-ELLIS-CTEIWO6DBNE-UNSPLASH.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.text {
+    position: fixed;
+    top: -100px;
+    left: 6px;
+    padding-left: 30px;
+}
+
+h1 {
+    font-size: 150px;
+}
+
+/* div {
+    position: absolute;
+} */
