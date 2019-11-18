@@ -6,6 +6,11 @@ body {
     height: 500px;
 }
 
+/* border: grey solid 20px;
+    border-width: 20px;
+    float: right;
+    border-collapse: collapse; */
+
 .text {
     position: fixed;
     top: -100px;
@@ -14,9 +19,38 @@ body {
 }
 
 h1 {
-    font-size: 150px;
+    font-size: 145px;
+    position: fixed;
+    top: -120px;
+    left: 6px;
+    padding-left: 30px;
 }
 
-/* div {
-    position: absolute;
-} */
+h2 {
+    position: fixed;
+    top: 15px;
+    left: 6px;
+    padding-left: 30px;
+    font-size: 145px;
+}
+
+div {
+    position: fixed;
+    top: 285px;
+    left: 6px;
+    padding-left: 30px;
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    display: inline-flex;
+    top: 500px;
+    left: -50px;
+    padding-left: 30px;
+}
+
+img {
+    padding-left: 60px;
+}
