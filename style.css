@@ -1,9 +1,10 @@
 body {
-    background-image: url(KRISTIN-ELLIS-CTEIWO6DBNE-UNSPLASH.jpeg);
-    background-position: center;
+    background-image: url(kristin-ellis-cteiWO6dBNE-unsplash.jpg);
+    position: relative;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 500px;
+    background-position: center;
+    height: auto;
+    margin:0;
 }
 
 /* border: grey solid 20px;
@@ -11,36 +12,24 @@ body {
     float: right;
     border-collapse: collapse; */
 
-.text {
-    position: fixed;
+/*.text {
+    position: ;
     top: -100px;
     left: 6px;
     padding-left: 30px;
-}
+}*/
 
 h1 {
-    font-size: 145px;
-    position: fixed;
-    top: -120px;
-    left: 6px;
-    padding-left: 30px;
-}
-
-h2 {
-    position: fixed;
-    top: 15px;
-    left: 6px;
-    padding-left: 30px;
-    font-size: 145px;
+    font-size: 63px;
+    margin: 20px;
+    color: beige;
 }
 
 div {
-    position: fixed;
-    top: 285px;
-    left: 6px;
-    padding-left: 30px;
+    padding: 10px 0 0 20px;
     font-size: 17px;
     text-decoration: underline;
+    color: beige;
 }
 
 footer {
@@ -54,3 +43,10 @@ footer {
 img {
     padding-left: 60px;
 }
+
+.square {
+    height: 50px;
+    width: 50px;
+    border: solid grey 10px;
+}
+
