@@ -7,6 +7,10 @@ body {
     margin:0;
 }
 
+.container {
+    min-width: 1200px;
+}
+
 /* border: grey solid 20px;
     border-width: 20px;
     float: right;
@@ -45,8 +49,12 @@ img {
 }
 
 .square {
-    height: 50px;
-    width: 50px;
+    position: relative;
+    height: 700px;
+    width: 700px;
     border: solid grey 10px;
+    margin: 0 700px;
+    opacity: 5px;
+    z-index: -1;
 }
 
